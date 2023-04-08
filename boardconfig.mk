@@ -10,8 +10,7 @@ DEVICE_PATH := device/xiaomi/merlin
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_merlin.mk
+PRODUCT_MAKEFILES := \$(LOCAL_DIR)/twrp_merlin.mk
 
 # Architecture
 TARGET_ARCH := arm64
