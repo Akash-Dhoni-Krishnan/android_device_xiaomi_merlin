@@ -13,6 +13,9 @@ ALLOW_MISSING_DEPENDENCIES := true
 # Inherit from mt6768-common
 -include device/xiaomi/mt6768-common/BoardConfigCommon.mk
 
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/twrp_merlin.mk
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
