@@ -10,9 +10,6 @@ DEVICE_PATH := device/xiaomi/merlin
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# Inherit from mt6768-common
--include device/xiaomi/mt6768-common/BoardConfigCommon.mk
-
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_merlin.mk
 
